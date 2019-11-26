@@ -1,0 +1,16 @@
+console.log('BIIINNNCHH');
+let value = prompt("Enter your bill before tax: ");
+let tax = prompt("Enter the tax of the bill: ");
+let Tip20P=value*(.2);
+Tip20P=Tip20P.toFixed(2);
+let Tip15P=value*(.15);
+Tip15P=Tip15P.toFixed(2);
+let Tip10P=value*(.1);
+Tip10P=Tip10P.toFixed(2);
+let dTax= tax*2;
+dTax=dTax.toFixed(2);
+document.writeln("The right tip amount for $"+value+":");
+document.writeln("<br>"+'&nbsp;&nbsp;'+"20%:"+'&nbsp;&nbsp;'+Tip20P);
+document.writeln("<br>"+'&nbsp;&nbsp;'+"20%:"+'&nbsp;&nbsp;'+Tip15P);
+document.writeln("<br>"+'&nbsp;&nbsp;'+"20%:"+'&nbsp;&nbsp;'+Tip10P);
+document.writeln("<br>"+'&nbsp;&nbsp;'+"20%:"+'&nbsp;&nbsp;'+dTax);
