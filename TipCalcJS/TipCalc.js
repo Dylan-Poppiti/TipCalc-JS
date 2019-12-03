@@ -1,4 +1,3 @@
-console.log('BIIINNNCHH');
 let value = prompt("Enter your bill before tax: ");
 let tax = prompt("Enter the tax of the bill: ");
 let Tip20P=value*(.2);
